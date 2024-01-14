@@ -1,5 +1,5 @@
-# ruby-cli-template
+# A Smooth Shop CLI
+A command line interface to simulate buying (or not) from a smoothie shop.
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
-
-- Ruby version: `3.2.1`
+# Usage
+Run 'ruby shop' in the terminal.
