@@ -1,0 +1,9 @@
+class Smoothie
+  def initialize
+    puts "Creating a new smoothie!"
+  end
+
+  def blend
+    puts "Blending the smoothie!"
+  end
+end
