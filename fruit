@@ -1,0 +1,10 @@
+class Fruit
+  attr_accessor :type, :age
+
+  def initialize
+    @species = species
+    @name = name
+    @gender = gender
+  end
+
+  def 
