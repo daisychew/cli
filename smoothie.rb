@@ -28,13 +28,12 @@ class Smoothie
   def smoothie_size
     loop do
       puts "What size smoothie would you like? We have small, medium, and large."
-      self.size = gets.chomp
+      self.size = gets&.chomp
 
-      if size.downcase == 'exit'
+      if size.nil? || size.downcase == 'exit'
         puts "Thank you for stopping in!"
         break
-      elsif
-        size.downcase == "s" || size.downcase == "small"
+      elsif size.downcase == "s" || size.downcase == "small"
         puts "A small smoothie it is."
         smoothie_price
         break
